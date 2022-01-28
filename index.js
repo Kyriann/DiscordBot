@@ -34,6 +34,8 @@ client.on('messageCreate', async message => {
         client.commands.get('sondage').execute(message, args);
     }else if (command === 'jeux'){
         client.commands.get('jeux').execute(message, args);
+    }else if (command === 'help'){
+        client.commands.get('help').execute(message, args);
     }
     
 })
